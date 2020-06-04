@@ -1,0 +1,350 @@
+{
+  "id": "259bc7c4-a0c8-4ab7-8990-f3bfb05e8641",
+  "version": "2.0",
+  "name": "javacodegeeks.com/2020/06/selenium-ide-what-is-it",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "3e50ff84-7883-449f-ba26-a02de102b782",
+    "name": "basic moueza search Linkedin",
+    "commands": [{
+      "id": "1d968d8f-2d9a-4f91-85c3-05f71787e9dc",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1219ce56-2c1c-4154-b34c-44417c9e163a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "695x796",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "379188de-345d-45b4-8a46-8dcb13dc99db",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "moueza"
+    }, {
+      "id": "ef4dc91d-7ab2-4444-84a1-d311fc787749",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "d4abd770-4356-468f-803f-83fd4f562fb5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2",
+      "targets": [
+        ["linkText=2", "linkText"],
+        ["css=td:nth-child(3) > .fl", "css:finder"],
+        ["xpath=(//a[contains(text(),'2')])[2]", "xpath:link"],
+        ["xpath=//span[@id='xjs']/div/table/tbody/tr/td[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/search?q=moueza&sxsrf=ALeKk02Zbij6QDFh9qi4ueTeHTI2c--eQw:1591268474559&ei=etTYXpfcIdXlgwekvKngDw&start=10&sa=N&ved=2ahUKEwiXgayBgejpAhXV8uAKHSReCvwQ8tMDegQIFxAt')]", "xpath:href"],
+        ["xpath=//td[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd06a34b-e91e-4aa9-832a-3f17d446b307",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,731)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7046a3d4-6f17-474d-b505-56116f2e37be",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=3",
+      "targets": [
+        ["linkText=3", "linkText"],
+        ["css=td:nth-child(4) > .fl", "css:finder"],
+        ["xpath=//a[contains(text(),'3')]", "xpath:link"],
+        ["xpath=//span[@id='xjs']/div/table/tbody/tr/td[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/search?q=moueza&biw=687&bih=675&sxsrf=ALeKk00BvFLvZUgMW2g6GWIvssyFK878LA:1591268483921&ei=g9TYXr_yN-6ejLsPhO6H4AU&start=20&sa=N&ved=2ahUKEwj_v-eFgejpAhVuD2MBHQT3AVw4ChDy0wN6BAgLEC8')]", "xpath:href"],
+        ["xpath=//td[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec0952b1-0044-4e0d-bf0f-59bbd3d0dd5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.rc:nth-child(2) .LC20lb",
+      "targets": [
+        ["css=.rc:nth-child(2) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Peter MOUEZA - Ufr sciences et techniques de Nantes ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "be7966ee-a6dd-402b-96b3-904d6d748186",
+    "name": "Google search Github Image",
+    "commands": [{
+      "id": "9d0da06e-143b-4f0d-9164-28bb8e213b75",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9081bf31-2d0a-48ed-b480-09df9c4d1651",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "695x796",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af7f41ff-9e06-441f-9e7f-6103d0e5c103",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "moueza"
+    }, {
+      "id": "27961b44-8bec-4b3d-84b8-2c936cf7850a",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7744e373-54d7-431a-96e7-1b37bb573f45",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.g:nth-child(1) .LC20lb",
+      "targets": [
+        ["css=.g:nth-child(1) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Déco Moueza Les Abymes - Enseignes (adresse)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "86b29c7a-d429-4a4d-8c85-ffe039eff409",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,122)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d660743-ae49-4049-8f46-e06722ae6099",
+      "comment": "",
+      "command": "click",
+      "target": "css=#pnnext > .SJajHc",
+      "targets": [
+        ["css=#pnnext > .SJajHc", "css:finder"],
+        ["xpath=//a[@id='pnnext']/span", "xpath:idRelative"],
+        ["xpath=//td[12]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7d4fa84-f9b9-4832-9a52-d00bcba7b427",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,361)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "789f8cca-a238-43c4-9df1-5b08ec4024ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=dimg_15",
+      "targets": [
+        ["id=dimg_15", "id"],
+        ["css=#dimg_15", "css:finder"],
+        ["xpath=(//img[@alt='Image result for moueza'])[3]", "xpath:img"],
+        ["xpath=//img[@id='dimg_15']", "xpath:attributes"],
+        ["xpath=//a[@id='suQCDf1K3SSRhM:']/g-inner-card/g-img/img", "xpath:idRelative"],
+        ["xpath=//div[3]/a/g-inner-card/g-img/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "370a4323-2be6-4eaf-a1c3-b0ae201108c5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,349)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1f32eae2-8e7a-4998-b73d-6ab2173f2a58",
+    "name": "Google search Twitter 2",
+    "commands": [{
+      "id": "afccdee2-0325-46c6-a4ba-8caf9811f623",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d6ee837-cbba-4aeb-b79d-a8ffb01a18a7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "695x796",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6fac66f-5444-4a2c-8319-777a2c68412a",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "moueza"
+    }, {
+      "id": "fffe9191-e1b8-4e69-a4cb-02727e69b66d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ed1e0317-04f5-4d84-ade2-24c1608029be",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=2",
+      "targets": [
+        ["linkText=2", "linkText"],
+        ["css=td:nth-child(3) > .fl", "css:finder"],
+        ["xpath=(//a[contains(text(),'2')])[2]", "xpath:link"],
+        ["xpath=//span[@id='xjs']/div/table/tbody/tr/td[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/search?q=moueza&sxsrf=ALeKk02SLWjTQznELscr0RgWBc-mEAKZqQ:1591269082839&ei=2tbYXu3RMuuPlwS1h4-wAw&start=10&sa=N&ved=2ahUKEwjtprKjg-jpAhXrx4UKHbXDAzYQ8tMDegQIFxAt')]", "xpath:href"],
+        ["xpath=//td[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29de4454-9148-4eef-9de4-a19b492e3836",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//h3[contains(.,'Peter MOUEZA (@moueza) | Twitter')]",
+      "targets": [
+        ["css=.g:nth-child(11) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div[9]/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Peter MOUEZA (@moueza) | Twitter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d1d7b8ac-c66d-40b7-bcbb-a99325296d17",
+    "name": "Google search Twitter 4",
+    "commands": [{
+      "id": "95b40c09-7093-4dab-9675-dc1183cc07ea",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b895cfd-92ad-4aa5-b6e8-fe385f92b574",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "695x796",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64c2ad1f-4cff-440a-9317-3cd169d389af",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "moueza"
+    }, {
+      "id": "da8f9544-a9b1-459d-8516-e1170de2b559",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "aa5bbc31-1eb5-49ad-b3cc-4c5af57fd871",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=4",
+      "targets": [
+        ["linkText=2", "linkText"],
+        ["css=td:nth-child(3) > .fl", "css:finder"],
+        ["xpath=(//a[contains(text(),'2')])[2]", "xpath:link"],
+        ["xpath=//span[@id='xjs']/div/table/tbody/tr/td[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/search?q=moueza&sxsrf=ALeKk02SLWjTQznELscr0RgWBc-mEAKZqQ:1591269082839&ei=2tbYXu3RMuuPlwS1h4-wAw&start=10&sa=N&ved=2ahUKEwjtprKjg-jpAhXrx4UKHbXDAzYQ8tMDegQIFxAt')]", "xpath:href"],
+        ["xpath=//td[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae64ebbb-5a83-46ba-8b0f-9257e3e7028f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//h3[contains(.,'Peter MOUEZA (@moueza) | Twitter')]",
+      "targets": [
+        ["css=.g:nth-child(11) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div[9]/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Peter MOUEZA (@moueza) | Twitter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dd52fde4-b0b1-40bc-a25b-dfe5fb297060",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
